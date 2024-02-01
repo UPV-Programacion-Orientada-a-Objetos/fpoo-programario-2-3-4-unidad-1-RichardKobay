@@ -16,8 +16,29 @@ public class Scanner {
         }
     }
 
+
+    public String readLine (String message) {
+        try {
+            System.out.println(message);
+            return scanner.readLine();
+        } catch (IOException e) {
+            System.out.println("The input was not what we excepted");
+            return "";
+        }
+    }
+
     public double readDouble () {
         try {
+            return Double.parseDouble(scanner.readLine());
+        } catch (IOException | NumberFormatException e) {
+            System.out.println("The input was not what we excepted");
+            return 0;
+        }
+    }
+
+    public double readDouble (String message) {
+        try {
+            System.out.println(message);
             return Double.parseDouble(scanner.readLine());
         } catch (IOException | NumberFormatException e) {
             System.out.println("The input was not what we excepted");
@@ -27,6 +48,16 @@ public class Scanner {
     
     public int readInt () {
         try {
+            return Integer.parseInt(scanner.readLine());
+        } catch (IOException | NumberFormatException e) {
+            System.out.println("The input was not what we excepted");
+            return 0;
+        }
+    }
+
+    public int readInt (String message) {
+        try {
+            System.out.println(message);
             return Integer.parseInt(scanner.readLine());
         } catch (IOException | NumberFormatException e) {
             System.out.println("The input was not what we excepted");
