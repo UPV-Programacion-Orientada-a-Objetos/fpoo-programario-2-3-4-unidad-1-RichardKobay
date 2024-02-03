@@ -21,4 +21,5 @@ public class EjercicioVeinte {
         double price = scanner.readDouble("Give me the total of your ticket");
         System.out.println("Your new total will be: " + totalWithDiscount(price));
     }
+    public EjercicioVeinte (boolean test) {}
 }

@@ -31,4 +31,6 @@ public class EjercicioVeintiuno {
 
             System.out.println("You'll receive $" + amount(age, cal));
     }
+
+    public EjercicioVeintiuno (boolean test){}
 }

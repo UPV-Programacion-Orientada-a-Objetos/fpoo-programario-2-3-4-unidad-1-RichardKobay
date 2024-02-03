@@ -8,21 +8,29 @@ public class EjercicioVeintidos {
     public double getNewSalary (double salary, int antiquity) {
         Prices prices = new Prices();
         double newSalary = 0;
-        if (salary <= 1000)
+
+        if (salary <= 1000) {
             newSalary = prices.addPercentage(salary, 25);
-        if (salary <= 3500)
+        }
+        if (salary > 1000 && salary <= 3500) {
             newSalary = prices.addPercentage(salary, 15);
-        if (salary > 3500)
+        }
+        if (salary > 3500) {
             newSalary = prices.addPercentage(salary, 10);
+        }
 
-        if (antiquity >= 2 && antiquity <= 5)
+        if (antiquity >= 2 && antiquity <= 5) {
             return prices.addPercentage(newSalary, 20);
+        }
 
-        if (antiquity > 5)
+        if (antiquity > 5) {
             return prices.addPercentage(newSalary, 30);
+        }
 
         return newSalary;
     }
+
+    public EjercicioVeintidos (boolean test) {}
 
     public EjercicioVeintidos () {
         Scanner scanner = new Scanner();

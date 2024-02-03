@@ -26,7 +26,7 @@ class PricesTest {
     @Test
     void addPercentage_4() {
         Prices prices = new Prices();
-        assertEquals(460.96, prices.addPercentage(246.32, 87.14), 0.02);
+    assertEquals(460.96, prices.addPercentage(246.32, 87.14), 0.02);
     }
 
     @Test
