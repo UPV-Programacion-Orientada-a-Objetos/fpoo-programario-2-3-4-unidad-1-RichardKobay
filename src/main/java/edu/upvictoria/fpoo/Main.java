@@ -6,8 +6,7 @@ import edu.upvictoria.fpoo.helpers.Scanner;
 
 public class Main {
     public static void main(String[] args){
-        Scanner scanner = new Scanner();
-        boolean x = Boolean.parseBoolean(scanner.readLine());
-        System.out.println(x);
+        Menu menu = new Menu();
+        menu.printPackages();
     }
 }
