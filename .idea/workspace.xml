@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="afdd84ad-58a1-4fb9-a39f-9b35030e90c9" name="Changes" comment="Tested SOmething">
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/upvictoria/fpoo/arreglos/EjercicioUno.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/upvictoria/fpoo/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/upvictoria/fpoo/Menu.java" afterDir="false" />
-    </list>
+    <list default="true" id="afdd84ad-58a1-4fb9-a39f-9b35030e90c9" name="Changes" comment="menu" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -118,7 +113,7 @@
       <workItem from="1706803857631" duration="20000" />
       <workItem from="1706804126968" duration="30000" />
       <workItem from="1706830924924" duration="13051000" />
-      <workItem from="1706911276211" duration="17136000" />
+      <workItem from="1706911276211" duration="17445000" />
     </task>
     <task id="LOCAL-00001" summary="Created the Scanner class to scan things with BufferReader">
       <option name="closed" value="true" />
@@ -176,7 +171,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706938123405</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="menu">
+      <option name="closed" value="true" />
+      <created>1706939638092</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1706939638092</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,6 +193,7 @@
     <MESSAGE value="Created New Arrays and Modified New Math" />
     <MESSAGE value="MOdifieed" />
     <MESSAGE value="Tested SOmething" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tested SOmething" />
+    <MESSAGE value="menu" />
+    <option name="LAST_COMMIT_MESSAGE" value="menu" />
   </component>
 </project>
