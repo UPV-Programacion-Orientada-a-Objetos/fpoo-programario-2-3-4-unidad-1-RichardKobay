@@ -13,12 +13,15 @@ public class Menu {
             System.out.println("1. Selectivas");
             System.out.println("2. Repetitivas");
             System.out.println("3. Arreglos");
+            System.out.println("4. Salir");
             int opc = scanner.readInt("Selecciona una opción");
-            if (opc >= 1 && opc <= 3) {
+            if (opc >= 1 && opc <= 4) {
                 if (opc == 1)
                     printFirstPackage();
                 if (opc == 2)
                     printSecondPackage();
+                if (opc == 4)
+                    return;
             }
         }
     }
